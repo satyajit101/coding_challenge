@@ -27,7 +27,7 @@ mvn clean package
 
 2) Run Project
 ```
-java -jar -Dbase.value=<base_weight> target/egen-be-challenge-0.0.1-SNAPSHOT.jar
+java -jar -Dbase.value=<base_weight> target/coding-challenge-0.0.1-SNAPSHOT.jar
 ```
 
 Enter value for base_weight. [Example- -Dbase.value=150]
