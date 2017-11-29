@@ -27,10 +27,10 @@ mvn clean package
 
 2) Run Project
 ```
-java -jar -Dbase.value=<base_weight> target/coding-challenge-0.0.1-SNAPSHOT.jar
+java -jar -Dbase.value=<weight> target/coding-challenge-0.0.1-SNAPSHOT.jar
 ```
 
-Enter value for base_weight. [Example- -Dbase.value=150]
+Enter value for weight. [Example- -Dbase.value=150]
 
 3) Test Project
 ```
@@ -41,10 +41,10 @@ mvn test
 
 1) Shell Script to compile and run the project [for unix based platform] -
 ```
-./run-all.sh <base_weight>
+./run-all.sh <weight>
 ```
 
-Enter value for base_weight.
+Enter value for weight.
 
 ### APIs Exposed
 
